@@ -1,0 +1,14 @@
+.nav-bg {
+    background-color: #2C3E50;
+}
+
+.Lstyle {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.activeLink {
+    background-color: #1ABC9C;
+    border-radius: 10px;
+}

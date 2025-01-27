@@ -1,0 +1,69 @@
+.caption {
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 48px;
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
+    color: rgb(44, 62, 80);
+}
+
+.main {
+    cursor: pointer;
+}
+
+.screen {
+    transition: 0.5s;
+    opacity: 0;
+    font-size: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #2CB096;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.screen:hover {
+    opacity: 0.8;
+}
+
+.plus::before {
+    content: '';
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    width: 20%;
+    height: 10px;
+    transform: translateY(-50%, 50%);
+}
+
+.plus::after {
+    content: '';
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    height: 25%;
+    width: 10px;
+    transform: translateX(-50%, -50%);
+}
+
+.ligthbox {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(9, 133, 164, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ligthbox-item {
+    width: 50%;
+    height: 70vh;
+    background-color: red;
+    background-image: url(../../../public/poert1.png);
+}
